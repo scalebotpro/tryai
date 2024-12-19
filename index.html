@@ -364,7 +364,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video with White Space</title>
+    <title>Wistia Video</title>
     <style>
         body {
             margin: 0;
@@ -372,16 +372,17 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             background-color: #f4f4f4;
         }
         .video-container {
-            width: 80%;
+            width: 100%;
             max-width: 800px;
-            margin-top: 50px;
+            margin: 50px auto;
         }
         .white-space {
-            height: 150px; /* Increased the white space height */
+            height: 75px; /* Reduced by 50% */
+            width: 100%;
         }
     </style>
     <script src="https://fast.wistia.com/embed/medias/z374yw788f.jsonp" async></script>
@@ -390,8 +391,8 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <body>
     <div class="video-container">
         <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
-            <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                <div class="wistia_embed wistia_async_z374yw788f seo=true videoFoam=true" style="height:100%;position:relative;width:100%">
+            <div class="wistia_responsive_wrapper" style="height:100%;position:relative;width:100%;">
+                <div class="wistia_embed wistia_async_z374yw788f seo=true videoFoam=true" style="height:100%;position:relative;width:100%;">
                     <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
                         <img src="https://fast.wistia.com/embed/medias/z374yw788f/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
                     </div>
